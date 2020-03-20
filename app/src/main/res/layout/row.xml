@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/AppTheme"
+    android:id="@+id/card_view_result"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="2dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/home_logo"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/soccerball" />
+
+        <TextView
+            android:id="@+id/team_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chelsea"
+            android:gravity="left"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/home_logo"
+            android:layout_toLeftOf="@id/match_time"/>
+
+        <TextView
+            android:id="@+id/match_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15:30"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:id="@+id/team_away"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Everton"
+            android:layout_toRightOf="@id/match_time"
+            android:layout_toLeftOf="@id/away_logo"
+            android:gravity="right"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:id="@+id/away_logo"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/soccerball" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

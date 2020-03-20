@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SplashScreen</string>
+    <string name="bola_sepak_text">BolaSepak</string>
+    <string name="sekarang">Sekarang</string>
+    <string name="sebelum">Sebelum</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
